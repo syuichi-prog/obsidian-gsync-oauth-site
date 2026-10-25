@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Obsidian GSync — 個人利用</title>
+  <style>
+    :root { color-scheme: light dark; --accent:#4f46e5; --card:#ffffff12; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:#0f172a; color:#e2e8f0; }
+    main { max-width:760px; margin:0 auto; padding:56px 24px; }
+    nav { display:flex; gap:18px; flex-wrap:wrap; margin-bottom:52px; }
+    a { color:#a5b4fc; } a:hover { color:#c7d2fe; }
+    h1 { font-size:clamp(2rem,6vw,3.5rem); line-height:1.15; margin:0 0 16px; color:#fff; }
+    h2 { margin-top:42px; color:#fff; } p, li { max-width:68ch; }
+    .lead { font-size:1.2rem; color:#cbd5e1; }
+    .notice { margin:30px 0; padding:20px 22px; border-left:4px solid var(--accent); background:var(--card); border-radius:8px; }
+    footer { margin-top:60px; border-top:1px solid #334155; padding-top:24px; color:#94a3b8; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="主要メニュー"><a href="./">ホーム</a><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用規約</a></nav>
+    <h1>Obsidian GSync</h1>
+    <p class="lead">このページは、個人が自分の Obsidian 保管庫を Google Drive と同期するための OAuth アプリ情報ページです。</p>
+    <div class="notice"><strong>個人利用のみ。</strong> このアプリは一般向けのサービスとして提供・配布していません。利用者はアプリ所有者本人のみです。</div>
+    <h2>Google Drive へのアクセス</h2>
+    <p>Obsidian GSync は同期機能のため、Google OAuth を通じて Google Drive の広いアクセス権限（Google Drive 内のファイルを閲覧・作成・変更・削除できる権限）を要求します。この権限は、保管庫のファイルを同期する目的でのみ本人の Google アカウントに対して使用します。</p>
+    <p>Google Drive の内容を第三者に販売、広告目的で利用、または一般公開することはありません。この静的サイト自体は Google Drive の内容、OAuth トークン、メールアドレス、または Obsidian のノートを収集しません。</p>
+    <h2>安全に関する注意</h2>
+    <ul>
+      <li>OAuth クライアント ID、クライアント シークレット、アクセストークン、更新トークンはこのサイトや公開リポジトリに掲載しません。</li>
+      <li>Google アカウントの権限は、Google アカウントのサードパーティ アクセス管理からいつでも取り消せます。</li>
+      <li>同期対象は本人が管理するデータです。同期前に重要なデータのバックアップを推奨します。</li>
+    </ul>
+    <footer>最終更新: 2026年10月25日 ・ <a href="privacy.html">プライバシーポリシー</a> ・ <a href="terms.html">利用規約</a></footer>
+  </main>
+</body>
+</html>
